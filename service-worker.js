@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hvac-bdz-academy-m1-v1';
+const CACHE_NAME = 'hvac-bdz-academy-m1-v7';
 const CORE_ASSETS = [
   '/',
   '/index.html',
@@ -13,6 +13,7 @@ const CORE_ASSETS = [
   '/biblioteca/ciclo-refrigeracion.html',
   '/biblioteca/tipos-sistemas.html',
   '/biblioteca/unidades-glosario.html',
+  '/biblioteca/guia-documentacion-proyectos.html',
   '/Cuadernillo_Participante_M1_Historia_Fundamentos_HVAC_BDZ_2026.pdf',
   '/Cuadernillo_Participante_M1_Historia_Fundamentos_HVAC_BDZ_2026.docx',
   '/Presentacion_M1_Historia_Fundamentos_HVAC_BDZ_2026%20(1).pdf'

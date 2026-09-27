@@ -10,6 +10,7 @@ Portal público del participante para el Curso HVAC BDZ.
 - Actividad formativa en Google Forms
 - Evaluación final en Google Forms
 - Encuesta de cierre en Google Forms
+- Materiales del participante publicados como páginas web internas del portal
 
 ## Nota de seguridad
 
@@ -28,3 +29,7 @@ Después abre:
 ```text
 http://localhost:3000
 ```
+
+## Última actualización
+
+Corrección de accesos a materiales del participante M1.

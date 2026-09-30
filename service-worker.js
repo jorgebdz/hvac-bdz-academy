@@ -1,4 +1,4 @@
-const CACHE_NAME='hvac-bdz-academy-m2-s21-v3';
+const CACHE_NAME='hvac-bdz-academy-m2-s21-v4';
 const CORE_ASSETS=['/','/index.html','/modulo1/index.html','/modulo2/sesion-2-1-participantes.html','/offline.html','/manifest.json','/icon-192.svg','/icon-512.svg','/biblioteca/index.html','/biblioteca/historia-confort.html','/biblioteca/que-es-hvac.html','/biblioteca/calor-sensible-latente.html','/biblioteca/ciclo-refrigeracion.html','/biblioteca/tipos-sistemas.html','/biblioteca/unidades-glosario.html','/biblioteca/guia-documentacion-proyectos.html','/modulo2/index.html','/modulo2/sesion-2-1.html','/modulo2/presentacion-2-1.html','/modulo2/evaluaciones-2-1.html','/modulo2/hoja-levantamiento.html','/modulo2/plano-caso.html','/modulo2/ficha-caso.html'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(CORE_ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));

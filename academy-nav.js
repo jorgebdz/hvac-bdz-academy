@@ -7,7 +7,7 @@ function start(){
  {id:'m1',label:'Módulo 1',home:'/modulo1/index.html',sessions:[['Sesión 1 · Historia y fundamentos','/modulo1/index.html']]},
  {id:'m2',label:'Módulo 2',home:'/modulo2/index.html',sessions:[['Sesión 2.1 · Cargas térmicas','/modulo2/sesion-2-1.html'],['Sesión 2.2 · LATS Load','/modulo2/sesion-2-2.html'],['Sesión 2.3 · Práctica integral','/modulo2/sesion-2-3.html']]},
  {id:'m3',label:'Módulo 3',home:'/modulo3/index.html',sessions:[['Sesión 3.1 · AutoCAD','/modulo3/sesion-3-1.html'],['Sesión 3.2 · Daikin Xpress','/modulo3/sesion-3-2.html']]},
- {id:'m4',label:'Módulo 4',home:'/modulo4/index.html',sessions:[['Sesión 4.1 · Bases y sembrado','/modulo4/sesion-4-1.html'],['Sesión 4.2 · Ductos y ventilación','/modulo4/sesion-4-2.html']]}
+ {id:'m4',label:'Módulo 4',home:'/modulo4/index.html',sessions:[['Sesión 4.1 · Bases y sembrado','/modulo4/sesion-4-1.html'],['Sesión 4.2 · Ductos y ventilación','/modulo4/sesion-4-2.html'],['Sesión 4.3 · Proyecto integrador','/modulo4/sesion-4-3.html'],['Lecturas técnicas M4','/modulo4/lecturas.html'],['Clínica LATS Load','/modulo4/clinica-lats-load-20261016.html']]}
  ];
  var active=path.startsWith('/modulo1/')?'m1':path.startsWith('/modulo2/')?'m2':path.startsWith('/modulo3/')?'m3':path.startsWith('/modulo4/')?'m4':null;
  var css=document.createElement('style');css.id='bdz-global-nav-style';
